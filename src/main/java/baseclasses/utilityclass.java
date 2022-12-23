@@ -10,8 +10,8 @@ import org.openqa.selenium.io.FileHandler;
 
 public class utilityclass {
 	public static void screenshot(WebDriver driver) throws IOException {
-		File f1 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		File f2 = new File("C:\\Users\\user\\Desktop\\class notes\\GitHub\\Automation\\target\\screenshot\\image1.jpg");
-		FileHandler.copy(f1, f2);
+//		File f1 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//		File f2 = new File("C:\\Users\\user\\Desktop\\class notes\\GitHub\\Automation\\target\\screenshot\\image1.jpg");
+//		FileHandler.copy(f1, f2);
 	}
 }
